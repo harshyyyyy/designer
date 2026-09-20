@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Harshini K — UI/UX Designer portfolio" />
+  <meta name="theme-color" content="#070707" />
+  <title>Harshini K — UI/UX Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Harshini home">HARSHINI</a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">Menu</button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-shell">
+      <div class="hero-copy-block">
+        <p class="eyebrow">UI/UX DESIGNER</p>
+        <h1><span>Hi I’m</span> Harshini</h1>
+        <p class="hero-copy">I design thoughtful digital experiences that balance user needs, business goals and technology.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View projects</a>
+          <a class="button button-secondary" href="#contact">Contact me</a>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-label="Harshini portfolio portrait">
+        <img src="https://harshyyyyy.github.io/harshini-portfolio-designer/assets/hero-default.png" alt="Harshini UI/UX portfolio hero" />
+      </div>
+    </section>
+
+    <section id="about" class="section-shell section-block">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>Who am I?</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>UI/UX Designer crafting thoughtful digital experiences that balance user needs, business goals, and technology.</p>
+          <p>With a background in Computer Science and experience in UI/UX Design, Content Strategy, and Front-end Development, I design intuitive, user-centered products that are both beautiful to use and practical to build.</p>
+          <p>I believe great design feels effortless—every interaction should have purpose, every interface should communicate clearly, and every solution should solve a real problem.</p>
+        </div>
+        <div class="about-image-card">
+          <img src="https://harshyyyyy.github.io/harshini-portfolio-designer/assets/about.png" alt="About Harshini" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-shell section-block">
+      <div class="section-heading section-heading-row">
+        <div>
+          <p class="eyebrow">02 / SELECTED WORK</p>
+          <h2>Projects</h2>
+        </div>
+        <p class="section-note">Hover or tap a project to bring it forward.</p>
+      </div>
+
+      <div class="project-switcher" data-project-switcher>
+        <div class="project-image-stage" aria-live="polite">
+          <img class="project-state active" data-project-image="brand" src="https://harshyyyyy.github.io/harshini-portfolio-designer/assets/projects-brand.png" alt="Brand Identity project" />
+          <img class="project-state" data-project-image="phonepe" src="https://harshyyyyy.github.io/harshini-portfolio-designer/assets/projects-phonepe.png" alt="PhonePe Metro Ticket project" />
+          <img class="project-state" data-project-image="instagram" src="https://harshyyyyy.github.io/harshini-portfolio-designer/assets/projects-instagram.png" alt="Instagram Redesign project" />
+        </div>
+
+        <div class="project-tabs" role="tablist" aria-label="Select project">
+          <button class="project-tab active" type="button" data-project="brand" role="tab" aria-selected="true">Brand Identity</button>
+          <button class="project-tab" type="button" data-project="phonepe" role="tab" aria-selected="false">PhonePe Metro Ticket</button>
+          <button class="project-tab" type="button" data-project="instagram" role="tab" aria-selected="false">Instagram Redesign</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-shell section-block">
+      <div class="section-heading">
+        <p class="eyebrow">03 / SKILLS</p>
+        <h2>What I bring to the table</h2>
+      </div>
+
+      <div class="skills-layout">
+        <div class="skills-column">
+          <h3>UX Design</h3>
+          <ul class="skill-list">
+            <li>User Research</li>
+            <li>User Persona</li>
+            <li>Information Architecture</li>
+            <li>User Flows</li>
+            <li>Wireframing</li>
+            <li>Prototyping</li>
+            <li>Usability Testing</li>
+            <li>UX Writing</li>
+            <li>Accessibility</li>
+          </ul>
+        </div>
+
+        <div class="skills-image-card">
+          <img src="https://harshyyyyy.github.io/harshini-portfolio-designer/assets/skills.png" alt="Harshini skills and tools" loading="lazy" />
+        </div>
+
+        <div class="skills-column">
+          <h3>UI Design</h3>
+          <ul class="skill-list">
+            <li>Design Systems</li>
+            <li>Visual Design</li>
+            <li>Responsive Design</li>
+            <li>Interaction Design</li>
+            <li>Component Libraries</li>
+          </ul>
+          <h3 class="tools-heading">Tools</h3>
+          <ul class="skill-list">
+            <li>Figma / FigJam</li>
+            <li>Adobe Illustrator</li>
+            <li>HTML / CSS / JavaScript</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-shell section-block contact-section">
+      <div class="contact-copy">
+        <p class="eyebrow">04 / CONTACT</p>
+        <h2>Let’s build meaningful experiences together.</h2>
+        <p>Open to UI/UX opportunities, collaborations and interesting design conversations.</p>
+      </div>
+
+      <div class="contact-card">
+        <p class="contact-label">GET IN TOUCH</p>
+        <a href="mailto:harshini.k1674@gmail.com">harshini.k1674@gmail.com</a>
+        <a href="https://www.linkedin.com/in/harshini-k-3848b2253/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        <a href="https://www.behance.net/harshinik8" target="_blank" rel="noopener noreferrer">Behance ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <span>© <span id="year"></span> Harshini K</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
